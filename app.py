@@ -4,7 +4,7 @@ from datetime import datetime
 import streamlit as st
 import plotly.graph_objects as go
 from streamlit_option_menu import option_menu
-
+import plotly
     #---Creating the structure of the webpage---
 incomes = ["Salary", "Side Hustle", "Other Income"]
 expenses = ["Rent", "Utilities", "Groceries", "Car", "Other Expenses", "Saving"]
